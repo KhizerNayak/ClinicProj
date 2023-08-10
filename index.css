@@ -1,0 +1,99 @@
+/* Style the header */
+.header {
+    padding: 10px 16px;
+    background: #555;
+    color: #f1f1f1;
+  }
+  
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the header with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 102px;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-image: url('./Images/download.jpg');
+    background-size:cover;
+    /* background-repeat: no-repeat; */
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.content-box {
+    display: flex;
+}
+
+.link-box {
+    flex: 1;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.link-box a {
+    display:-moz-box;
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.link-box:hover {
+    background-color: #6d4eea;
+    background-blend-mode: normal;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+    
+}
+
+nav{
+  background-color: #6d4eea;
+    background-blend-mode: normal;
+}
+
+nav ul{
+  background-color: #6d4eea;
+    background-blend-mode: normal;
+}
+
+nav 
