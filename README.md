@@ -15,7 +15,7 @@ Open-source and free to use, helping clinics establish an online presence withou
 To get started with PowerTwxalpha ClinicFrontend, simply clone this repository to your local machine or integrate it into your existing GitHub Pages setup. Customize the template to match your clinic's branding, add your content, and deploy it online. Don't forget to credit this repository in your website's footer!
 
 🔗 GitHub Repository:
-Explore the code and contribute to the project on GitHub: 
+Explore the code and contribute to the project on GitHub: https://github.com/KhizerNayak/ClinicProj
 
 🩺 Join the Community:
 We encourage collaboration and contributions from the developer and medical communities alike. Join us in improving ClinicFrontend and providing clinics worldwide with a powerful online platform. Your feedback and ideas are highly appreciated!
